@@ -1,17 +1,15 @@
-Sorting Production Line
+Product-Sorting-System
 =====================
 
 Based on https://github.com/miguelgrinberg/flask-video-streaming.
 
 ## Dependency
-python3 <br/>
-pip3 install pyserial <br/>
-pip3 install tensorflow==1.15.0 <br/>
-pip3 install flask <br/>
+python3 -m venv
+source venv\bin\activate
+pip install -r requirement.txt
+
 
 ## Run Server
 ```bash
-python3 app.py [-p your_device_name]
+python3 app.py
 ```
-
-You can check your device name in arduino ide, it is usually /dev/ttyACM*
